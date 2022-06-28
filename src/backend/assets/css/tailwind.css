@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply transition ease-in-out delay-150 duration-300 inline-flex relative rounded
+}
+._transition {
+    @apply transition ease-in-out delay-150 duration-300 relative
+}

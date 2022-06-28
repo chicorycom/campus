@@ -1,15 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { lazy, Suspense } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import App from './App';
+import App from './frontend';
+import { DatasProvider } from './hooks/DatasContext';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import { SpinnerContaine } from './backend/components/SpinnerContaine';
 
-ReactDOM.render(
+const Admin = lazy(() => import('./backend'));
+
+
+const container = document.getElementById('root')
+//document.body.insertBefore(container, document.body.firstChild)
+
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <DatasProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/*" element={<App />} />
+        
+        
+        <Route path='/admin/*' element={<Suspense fallback={<SpinnerContaine/>}><Admin/></Suspense>} />
+      </Routes>
+    </BrowserRouter>
+</DatasProvider>
+</React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
