@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import './index.css';
 import App from './frontend';
 import { DatasProvider } from './hooks/DatasContext';
@@ -19,14 +19,14 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
   <DatasProvider>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/*" element={<App />} />
         
         
         <Route path='/admin/*' element={<Suspense fallback={<SpinnerContaine/>}><Admin/></Suspense>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 </DatasProvider>
 </React.StrictMode>
 );

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkchicorycom=self.webpackChunkchicorycom||[]).push([[13],{5013:function(e,n,r){r.r(n);var t=r(2791),c=r(6871),i=r(184),u=(0,t.lazy)((function(){return Promise.all([r.e(173),r.e(473)]).then(r.bind(r,6473))})),o=(0,t.lazy)((function(){return r.e(607).then(r.bind(r,2607))})),a=(0,t.lazy)((function(){return r.e(458).then(r.bind(r,9458))}));n.default=function(){var e,n=(0,c.UO)().slug,r={Services:u,Formations:o,Recruit:a}[(e=n).charAt(0).toUpperCase()+e.slice(1)]||u;return(0,i.jsx)(r,{})}}}]);
-//# sourceMappingURL=13.303aa86c.chunk.js.map

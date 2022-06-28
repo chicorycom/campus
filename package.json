@@ -2,7 +2,7 @@
   "name": "chicorycom",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://chicorycom.github.io/campus",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^11.2.7",
@@ -47,6 +47,8 @@
     "prebuild": "npm run tailwind:build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -72,6 +74,7 @@
     "@tailwindcss/forms": "^0.5.0",
     "autoprefixer": "^10.4.4",
     "color": "^4.2.1",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.12",
     "sass": "^1.49.11",
     "tailwindcss": "^3.0.23"

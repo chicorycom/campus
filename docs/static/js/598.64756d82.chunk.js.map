@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/598.64756d82.chunk.js","mappings":"4KAOaA,EAAO,SAACC,GACnB,OACE","sources":["backend/pages/Test.js"],"sourcesContent":["import React from 'react'\n\n/**\n* @author\n* @function Test\n**/\n\nexport const Test = (props) => {\n  return(\n    <div>Test</div>\n   )\n\n }"],"names":["Test","props"],"sourceRoot":""}

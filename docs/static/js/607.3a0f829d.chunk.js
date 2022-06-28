@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkchicorycom=self.webpackChunkchicorycom||[]).push([[607],{2607:function(c,i,n){n.r(i);n(2791);var r=n(184);i.default=function(c){return(0,r.jsx)("div",{children:"PricingFormations"})}}}]);
-//# sourceMappingURL=607.3a0f829d.chunk.js.map
