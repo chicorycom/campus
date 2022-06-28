@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkchicorycom=self.webpackChunkchicorycom||[]).push([[584],{7584:function(c,n,r){r.r(n),r.d(n,{default:function(){return e}});r(2791);var u=r(184);function e(){return(0,u.jsx)("div",{children:"Signal"})}}}]);
+//# sourceMappingURL=584.1c749220.chunk.js.map
