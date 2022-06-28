@@ -1,0 +1,280 @@
+ [
+    {
+        "id": 1,
+        "name": "Formations",
+        "sub": [
+            {
+                "name": "Développement logiciel",
+                "description": "Développez vos compétences en matière de données avec de courts didacticiels vidéo, des défis de codage et des projets concrets.",
+                "slug":  "courses-all",
+                "languages": [
+                    "PythonIcon",
+                    "PhpIcon",
+                    "JavascriptIcon",
+                    "SqlIcon"
+                ],
+                "sub": [
+                    {
+                        "name": "Web Design",
+                        "sub": [
+                            {
+                                "name": "Introduction UI et UX",
+                                "slug":  "courses/full-ui-ux"
+                            },
+                            {
+                                "name": "Html CSS",
+                                "slug":  "courses/html-css"
+                            },
+                            {
+                                "name": "Framework CSS",
+                                "slug":  "courses/css-framework"
+                            },
+                            {
+                                "name": "Création de sites web",
+                                "slug":  "courses/web-design"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Web Développement",
+                        "all": "Voir tous les cours (58)",
+                        "slug":  "courses-all",
+                        "sub": [
+                            {
+                                "name": "Full-Stack Software Engineer",
+                                "slug":  "courses/full-stack-software-engineer"
+                            },
+                            {
+                                "name": "Front-End Engineer",
+                                "slug":  "courses/front-end-engineer"
+                            },
+                            {
+                                "name": "Back-End Engineer",
+                                "slug":  "courses/back-end-engineer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Développement mobile",
+                        "sub": [
+                            {
+                                "name": "Introduction Android",
+                                "slug":  "courses/learn-to-android"
+                            },
+                            {
+                                "name": "Introduction IOS",
+                                "slug":  "courses/learn-to-ios"
+                            },
+                            {
+                                "name": "Dev Mobile Hybride",
+                                "slug":  "courses/dev-mobile-hybride"
+                            },
+                            {
+                                "name": "Dev Mobile Native",
+                                "slug":  "courses/dev-mobile-native"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Data Sciense ",
+                        "sub": [
+                            {
+                                "name": "Mathématiques fondamentales",
+                                "slug":  "courses/math-fundamental"
+                            },
+                            {
+                                "name": "Data Science",
+                                "slug":  "courses/data-science"
+                            },
+                            {
+                                "name": "Data Visualization",
+                                "slug":  "courses/data-visualization"
+                            },
+                            {
+                                "name": "Machine Learning",
+                                "slug":  "courses/machine-learning"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Administrateur système DevOps",
+                "description": "DevOps combine les mots « développement » et « opérations » et fait référence à une approche collaborative de la création d'applications.",
+                "languages": [
+                    "ShellIcon",
+                    "GithubIcon",
+                    "AnsibleIcon",
+                    "DockerIcon",
+                    "KubernetesIcon"
+                ],
+                "sub": [
+
+                ]
+            },
+            {
+                "name": "DevNet Associate",
+                "description": "La certification Cisco Certified DevNet Associate est votre entrée dans une carrière dans l'automatisation des réseaux.",
+                "languages": [
+                    "CiscoIcon",
+                    "HuaweiIcon"
+                ],
+                "sub": [
+
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Service",
+        "sub": [
+            {
+                "name": "Génie logiciel",
+                "description": "Développez vos compétences en matière de données avec de courts didacticiels vidéo, des défis de codage et des projets concrets.",
+                "languages": [
+                    "PythonIcon",
+                    "RIcon",
+                    "JavascriptIcon",
+                    "SqlIcon"
+                ],
+                "sub": [
+                    {
+                        "name": "Web Développement",
+                        "sub": [
+                            {
+                                "name": "Apprendre le HTML CSS",
+                                "slug":  "courses/full-stack-software-engineer"
+                            },
+                            {
+                                "name": "Full-Stack Software Engineer",
+                                "slug":  "courses/full-stack-software-engineer"
+                            },
+                            {
+                                "name": "Front-End Engineer",
+                                "slug":  "courses/front-end-engineer"
+                            },
+                            {
+                                "name": "Back-End Engineer",
+                                "slug":  "courses/back-end-engineer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Développement mobile",
+                        "slug":  "courses-all",
+                        "sub": [
+                            {
+                                "name": "Introduction Android",
+                                "slug":  "courses/learn-to-android"
+                            },
+                            {
+                                "name": "Introduction IOS",
+                                "slug":  "courses/learn-to-ios"
+                            },
+                            {
+                                "name": "Dev Mobile Hybride",
+                                "slug":  "courses/dev-mobile-hybride"
+                            },
+                            {
+                                "name": "Dev Mobile Native",
+                                "slug":  "courses/dev-mobile-native"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Data Science",
+                        "slug":  "courses-all",
+                        "sub": [
+                            {
+                                "name": "Mathématiques fondamentales",
+                                "slug":  "courses/math-fundamental"
+                            },
+                            {
+                                "name": "Data Science",
+                                "slug":  "courses/data-science"
+                            },
+                            {
+                                "name": "Data Visualization",
+                                "slug":  "courses/data-visualization"
+                            },
+                            {
+                                "name": "Machine Learning",
+                                "slug":  "courses/machine-learning"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "expérience d'apprentissage",
+                        "sub": [
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pricing",
+        "slug":  "pricing"
+    },
+    {
+        "id": 4,
+        "name": "Resources",
+        "sub": [
+            {
+                "name": "Resources",
+                "description": "Grow your data skills with short video tutorials, coding challenges, and real-life projects.",
+                "sub": [
+                    {
+                        "name": "Web Développement",
+                        "all": "Voir tous les cours (58)",
+                        "slug":  "courses-all",
+                        "sub": [
+                            {
+                                "name": "Apprendre le HTML CSS",
+                                "slug":  "courses/full-stack-software-engineer"
+                            },
+                            {
+                                "name": "Full-Stack Software Engineer",
+                                "slug":  "courses/full-stack-software-engineer"
+                            },
+                            {
+                                "name": "Front-End Engineer",
+                                "slug":  "courses/front-end-engineer"
+                            },
+                            {
+                                "name": "Back-End Engineer",
+                                "slug":  "courses/back-end-engineer"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Développement mobile",
+                        "all": "Voir tous les cours (58)",
+                        "slug":  "courses-all",
+                        "sub": [
+                            {
+                                "name": "Introduction Android",
+                                "slug":  "courses/learn-to-android"
+                            },
+                            {
+                                "name": "Introduction IOS",
+                                "slug":  "courses/learn-to-ios"
+                            },
+                            {
+                                "name": "Dev Mobile Hybride",
+                                "slug":  "courses/dev-mobile-hybride"
+                            },
+                            {
+                                "name": "Dev Mobile Native",
+                                "slug":  "courses/dev-mobile-native"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

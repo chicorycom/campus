@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/584.1c749220.chunk.js","mappings":"+KAEe,SAASA,IACtB,OACE","sources":["frontend/pages/Signal.jsx"],"sourcesContent":["import React from 'react'\n\nexport default function Signal() {\n  return (\n    <div>Signal</div>\n  )\n}\n"],"names":["Signal"],"sourceRoot":""}

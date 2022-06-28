@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/458.02e3cc31.chunk.js","mappings":"yIAaA,UANgB,SAACA,GACf,OACE","sources":["frontend/pages/pricings/Recruit.jsx"],"sourcesContent":["import React from 'react'\n\n/**\n* @author\n* @function Recruit\n**/\n\nconst Recruit = (props) => {\n  return(\n    <div>Recruit</div>\n   )\n  }\n\nexport default Recruit  "],"names":["props"],"sourceRoot":""}
