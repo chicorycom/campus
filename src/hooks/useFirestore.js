@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { get } from '../database';
 
 const useFirestore = (cl) => {
@@ -10,7 +10,7 @@ const useFirestore = (cl) => {
         return documents;
     }
 
-  useEffect(() => {
+  useMemo(() => {
     const ut = fetchData(cl);
     return () => ut;
     // this is a cleanup function that react will run when
